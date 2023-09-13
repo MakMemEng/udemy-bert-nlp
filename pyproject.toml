@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["MakMemEng <yatani.mems4568@gmail.com>"]
 readme = "README.md"
-packages = [{include = "bert_nlp"}]
+# packages = [{include = "bert_nlp"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -39,6 +39,9 @@ torch = "^2.0.1"
 tqdm = "^4.66.1"
 typing-extensions = "^4.7.1"
 urllib3 = "^2.0.4"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
 
 [build-system]
 requires = ["poetry-core"]
